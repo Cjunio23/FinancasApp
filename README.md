@@ -5,7 +5,7 @@ Prof. Eduardo Cunha Campos.
 
 Grupo: Ana Clara
        Custodio Junio
-       Tiago Ribeiro
+       Thiago Ribeiro
        
 E um aplicativo simples e versátil para gerenciamento financeiro pessoal, desenvolvido com React Native.
 
