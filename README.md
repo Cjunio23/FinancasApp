@@ -3,8 +3,8 @@
 Trabalho – Laboratório de Engenharia de Software I
 Prof. Eduardo Cunha Campos.
 
-Grupo: Ana Clara
-       Custodio Junio 20213012900
+Grupo: Ana Clara Cunha 20193010017,
+       Custodio Junio 20213012900,
        Thiago Ribeiro
        
 E um aplicativo simples e versátil para gerenciamento financeiro pessoal, desenvolvido com React Native.
