@@ -2,22 +2,43 @@
 
 Este repositório contem um exemplo simples de aplicativo móvel para gerenciamento financeiro pessoal construído usando uma arquitetura modular, simulando o conceito de microsserviços.
 
-Trabalho – Laboratório de Engenharia de Software I
-Prof. Eduardo Cunha Campos.
+Trabalho – Laboratório de Engenharia de Software I - Prof. Eduardo Cunha Campos.
 
-Grupo: Ana Clara Cunha 20193010017
-       Custodio Junio 20213012900
-       Thiago Ribeiro
+Grupo: Ana Clara Cunha 20193010017; Custodio Junio 20213012900; Thiago Ribeiro
        
 É um aplicativo simples e versátil para gerenciamento financeiro pessoal, desenvolvido com React Native.
 
-Visão Geral:
+### Visão Geral:
 O FinançasApp ajuda os usuários a organizar suas finanças, permitindo:
--Registrar receitas e despesas.
--Acompanhar o saldo atual.
--Planejar lançamentos futuros.
--Organizar transações por categoria, prazo e valor.
+* Registrar receitas e despesas.
+* Acompanhar o saldo atual.
+* Planejar lançamentos futuros.
+* Organizar transações por categoria, prazo e valor.
+
 Com uma interface intuitiva e prática, o app é ideal para uso diário.
+
+## Arquitetura do Sistema
+A arquitetura do FinançasApp utiliza os seguintes princípios:
+
+1. #### Divisão de Módulos:
+
+* Cada tela (Home, Transactions, Add Transaction) é implementada como um componente independente.
+* O gerenciamento de estado é centralizado no FinancialContext, utilizando a API Context e Reducer do React.
+
+2. #### Comunicação entre Componentes:
+
+* Os dados financeiros (saldo e transações) são armazenados no contexto global.
+* A comunicação é feita através de dispatch e useContext.
+
+3. #### Protocolos de Comunicação:
+
+Embora não haja backend neste exemplo, a arquitetura foi projetada para integração futura com APIs REST ou GraphQL.
+
+
+
+
+
+
 
 Funcionalidades:
 
