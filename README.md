@@ -1,4 +1,6 @@
-# FinancasApp 🤑
+# FinancasApp 🤑 : Exemplo Prático de Microsserviços
+
+Este repositório contem um exemplo simples de aplicativo móvel para gerenciamento financeiro pessoal construído usando uma arquitetura modular, simulando o conceito de microsserviços.
 
 Trabalho – Laboratório de Engenharia de Software I
 Prof. Eduardo Cunha Campos.
@@ -7,7 +9,7 @@ Grupo: Ana Clara Cunha 20193010017
        Custodio Junio 20213012900
        Thiago Ribeiro
        
-E um aplicativo simples e versátil para gerenciamento financeiro pessoal, desenvolvido com React Native.
+É um aplicativo simples e versátil para gerenciamento financeiro pessoal, desenvolvido com React Native.
 
 Visão Geral:
 O FinançasApp ajuda os usuários a organizar suas finanças, permitindo:
